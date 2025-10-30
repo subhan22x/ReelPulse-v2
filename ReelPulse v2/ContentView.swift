@@ -531,6 +531,7 @@ private struct LibraryView: View {
                 }
             }
         }
+        .transition(.opacity.combined(with: .scale))
     }
 
     private var projectsSection: some View {
